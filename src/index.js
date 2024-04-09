@@ -24,6 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
+      merhaba dünyaa
 
       <Route path="/about" element={<About />} />
       <Route path="/index" element={<Index3 />} />
